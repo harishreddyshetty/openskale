@@ -1,0 +1,32 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signUp-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  background-color: aqua;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.signup-heading {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.signup-btn {
+  background-color: #3b82f6;
+  border: 0px none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  height: 35px;
+  margin-top: 10px;
+}

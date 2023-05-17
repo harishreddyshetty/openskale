@@ -1,0 +1,70 @@
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 15px;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.trans-list-headings {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0px;
+  padding-left: 20px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.trans-list-container {
+  margin-left: 0px;
+  padding-left: 0px;
+  overflow-y: auto;
+  text-align: center;
+  line-height: 30px;
+  height: 350px;
+}
+
+.date {
+  width: 80px;
+}
+.ref-id {
+  width: 320px;
+  /* background-color: antiquewhite; */
+}
+
+.account {
+  width: 100px;
+  padding-left: 15px;
+  /* background-color: bisque; */
+}
+
+.type {
+  width: 100px;
+  /* background-color: aqua; */
+}
+.amount {
+  width: 100px;
+}
+
+.submit-btn {
+  background-color: #3b82f6;
+  border: 0px none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  height: 35px;
+  margin-top: 15px;
+}
+
+.select {
+  height: 30px;
+  outline: none;
+}
+
+.input {
+  height: 30px;
+  outline: none;
+}

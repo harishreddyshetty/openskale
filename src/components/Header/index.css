@@ -1,0 +1,30 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 20px;
+  background-color: antiquewhite;
+}
+
+.nav-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.transLink {
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #3b82f6;
+  border: 0px none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  height: 35px;
+  width: 80px;
+}

@@ -1,0 +1,16 @@
+.single-trans-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.date-list {
+  margin-right: 20px;
+  width: 80px;
+}
+.account-list {
+  margin-left: 15px;
+  width: 100px;
+}
