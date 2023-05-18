@@ -1,5 +1,4 @@
 import Header from '../Header'
-import BankContext from '../../BankContext/BankContext'
 
 import './index.css'
 
@@ -23,23 +22,15 @@ const HomeRoute = () => {
   }
 
   return (
-    <BankContext.Consumer>
-      {value => {
-        const {balance} = value
+    <div>
+      <Header />
 
-        return (
-          <div>
-            <Header />
-
-            <div className="home-container">
-              <h1>Welcome {getUserName()}</h1>
-              <p>Your Current Balance is</p>
-              <p className="balance-amount">Rs {getBalance()}</p>
-            </div>
-          </div>
-        )
-      }}
-    </BankContext.Consumer>
+      <div className="home-container">
+        <h1>Welcome {getUserName()}</h1>
+        <p>Your Current Balance is</p>
+        <p className="balance-amount">Rs {getBalance()}</p>
+      </div>
+    </div>
   )
 }
 

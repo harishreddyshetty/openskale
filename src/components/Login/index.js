@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 import './index.css'
 
@@ -85,6 +86,14 @@ class LoginRoute extends Component {
           <button className="Login-btn" type="submit">
             Login
           </button>
+
+          <p>
+            Not signed Up ?
+            <Link to="/">
+              {' '}
+              <span>Sign up</span>
+            </Link>{' '}
+          </p>
         </form>
       </div>
     )

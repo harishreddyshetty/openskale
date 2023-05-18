@@ -5,6 +5,7 @@ import Signup from './components/Signup'
 import LoginRoute from './components/Login'
 import HomeRoute from './components/HomeRoute'
 import Transactions from './components/Transactions'
+import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute'
 import BankContext from './BankContext/BankContext'
 
 import './App.css'
@@ -54,8 +55,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Signup} />
           <Route exact path="/login" component={LoginRoute} />
-          <Route exact path="/home" component={HomeRoute} />
-          <Route exact path="/transactions" component={Transactions} />
+          <ProtectedRoute exact path="/home" component={HomeRoute} />
+          <ProtectedRoute exact path="/transactions" component={Transactions} />
         </Switch>
       </BankContext.Provider>
     )

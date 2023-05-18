@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 import './index.css'
 
@@ -120,6 +121,13 @@ class Signup extends Component {
           <button className="signup-btn" type="submit">
             SignUp
           </button>
+
+          <p>
+            Already Signed up ?
+            <Link className="login-link" to="/login">
+              <span> Login</span>
+            </Link>
+          </p>
         </form>
       </div>
     )
